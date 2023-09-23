@@ -425,7 +425,7 @@ a {
 .home-hero__content {
   max-width: 120rem;
   margin: auto;
-  width: 90%;
+  width: 200%;
 
   animation: downToUp 0.8s;
 }
@@ -484,7 +484,7 @@ a {
 .about__info {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  grid-gap: 20 rem;
+  grid-column-gap: 40 rem;
 }
 
 .about1__info {
@@ -540,6 +540,14 @@ a {
   font-weight: 500;
 }
 
+
+
+
+.about__skills {
+	text-align: right; /* Align the skills list to the right */
+  }
+
+
 /* Skills Showcase */
 
 .skills-showcase {
@@ -553,8 +561,8 @@ a {
 }
 
 .skills-showcase__list-item {
-  padding: .5rem;
-  border-radius: 7px;
+  padding: .1rem;
+  border-radius: 20px;
   background: #fff;
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
@@ -795,10 +803,9 @@ a {
 
 .projects__list-item-img1 {
 	width: 55%;
-	display: block;
-	margin: 0;
-    padding: 0;
-	border-radius: 100%;
+  display: block;
+  margin: 0 auto; /* Center the image horizontally */
+  border-radius: 100%;
   }
 
 .projects__list-item-heading-tertiary {
@@ -1052,12 +1059,24 @@ a {
 
 .main-footer__socials {
   display: flex;
-  align-content: center;
+  align-content: left;
   justify-content: space-between;
   max-width: 25rem;
   margin: auto;
   margin-top: 6rem;
 }
+
+
+.main-footer__socials1 {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	justify-content: space-between;
+	max-width: 25rem;
+	margin: auto;
+	/* margin-top: 6rem;
+	margin-bottom: 6rem; */
+  }
 
 .main-footer__social-link-icon {
   width: 2.5rem;

@@ -198,6 +198,13 @@ a {
   line-height: 1.6;
 }
 
+
+.text-primary1 {
+	font-size: 1.9rem;
+	color: #444;
+	line-height: 1.6;
+  }
+
 .text-primary span {
   margin-bottom: 1.5rem;
   display: block;

@@ -30,6 +30,16 @@ smMenuBtn.addEventListener('click', () => {
   smMenuLink4.style.opacity = '1'
 })
 
+
+
+
+
+
+
+
+
+
+
 smMenuLinks.forEach((ele) => {
   ele.addEventListener('click', () => {
     smMenuLink4.style.transitionDelay = '0s'

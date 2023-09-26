@@ -867,11 +867,13 @@ a {
 }
 
 .contact__form-cont {
-  border-radius: 5px;
+  border-radius: 25px;
   overflow: hidden;
   display: grid;
   grid-template-columns: 1.5fr 1fr;
   box-shadow: 0 10px 100px rgba(0, 0, 0, 0.1);
+  width: 90%; /* Reduced width by 10% */
+  height: 40%; /* Reduced height by 10% */
 }
 
 .contact__form {
@@ -2958,4 +2960,52 @@ a {
 
 
 
-		
+		.grid-container {
+			display: grid;
+			grid-template-columns: 1fr 1fr; /* Two columns with equal width */
+			gap: 20px; /* This adds space between the columns */
+		  }
+		  
+		  .column {
+			padding: 20px; /* Optional: Add padding inside each column */
+		  }
+		  
+
+
+
+
+
+.social-icons {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.social-icon {
+    text-align: center;
+}
+
+.social-icon img {
+    width: 50px; /* Adjust the size of the icons as needed */
+}
+
+.social-icon p {
+    margin-top: 10px;
+    font-size: 16px;
+}
+
+
+
+
+.blank-element {
+    height: 100px; /* Adjust the value as per your preference */
+}
+
+.blank-element1 {
+    height: 40px; /* Adjust the value as per your preference */
+}
+
+.blank-element2 {
+    height: 20px; /* Adjust the value as per your preference */
+}
